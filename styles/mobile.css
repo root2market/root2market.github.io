@@ -1,0 +1,15 @@
+/* @media only screen and (max-width: 768px) { */
+@media (max-width: 1080px) {
+  .container {
+    max-width: 90%;
+  }
+
+  .intro-section {
+    min-height: 0;
+    padding: 8rem 0;
+  }
+
+  .intro-section li {
+    font-size: 1.5rem;
+  }
+}

@@ -1,102 +1,151 @@
 <!DOCTYPE html>
 <html>
-<head>
-  <!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-2V36Z81Q52"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+  <head>
+    <!-- Google tag (gtag.js) -->
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=G-2V36Z81Q52"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag('js', new Date());
 
-  gtag('config', 'G-2V36Z81Q52');
-</script>
-  
-  <title>Root2Market</title>
-  
-  <style>
-    
-.copyright {
-  float: left;
-}
+      gtag('config', 'G-2V36Z81Q52');
+    </script>
+    <title>Root2Market</title>
 
-.location {
-  float: right;
-}
-
-    body {
-      margin: 0;
-      padding: 0;
-    }
-
-    .tile1 {
-      background-color: #f2f2f2;
-      height: 400px;
-      width: 100%; /* Span the entire width of the screen */
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      text-align: center;
-          }
-
-          .tile2 {
-      background-color: #ffffff;
-      height: 350px;
-      width: 100%; /* Span the entire width of the screen */
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      text-align: center;
-          }
-
-    .tile1-content {
-      font-size: 38px;
-      color: black; 
-    }   
-
-    .tile2-content {
-      font-size: 28px;
-      color: black; 
-    }
-  </style>
-</head>
-<body>
-<div class="tile1">
-    <div class="tile1-content">
-    <h2>Root2Market</h2>
-    <p>We're the solution to your F&V problem.</p>
-    </div>
-</div>  
-
-<div class="tile2">
-    <div class="tile2-content">
-    <h2>What we do</h2>
-    <p>Our team has a diverse range of expertise in the food and vegetables industry, as well as technology.<br>
-      <br>We use this knowledge to deliver high-value, cost-effective solutions to the problems you face.</p>
-    </div>
-</div>
-
-<div class="tile1">
-    <div class="tile2-content">
-    <h2>How we do it</h2>
-    <p>We'll work with you to define the problem scope, then our analysts will do a thorough research to find the best solution.<br>
-        <br>After conducting the research, we will provide you a summary of the identified solution.<br>
-        <br>Once you decide how to implement the identified technology, we will provide support throughout its implementation.</p>
-    </div>
-</div>
-
-<div class="tile2">
-    <div class="tile2-content">
-    <h2>Contact Us</h2>
-    <p>We'll take care of your research so you can focus on growing your business.<br>
-        <br>Get in touch with <a href="mailto:misha@root2market.in">Misha</a>, our sales lead, for any questions.</p>
-    </div>
-</div>
-  <footer>
-    <div class="copyright">
-      <p>Copyright &copy; 2023 Root2Market. All rights reserved.</p>
+    <!-- Bootstarp CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./styles/index.css" />
+    <link rel="stylesheet" href="./styles/mobile.css" />
+  </head>
+  <body>
+    <div class="section intro-section">
+      <div class="container">
+        <h1>Root2Market</h1>
+        <h2>We're the solution to your F&V problem</h2>
+        <p>
+          Our team has a diverse range of expertise in the food and vegetables
+          industry, as well as technology. We use this knowledge to deliver
+          high-value, cost-effective solutions to the problems you face.
+        </p>
+        <p>
+          We'll take care of your research so you can focus on growing your
+          business. <a href="#contact-us">Get in touch</a>
+        </p>
       </div>
-    <div class="location"><p>Location: Bangalore, India</p>
     </div>
-  </footer>
-</body>
+
+    <div class="section process-section">
+      <div class="container">
+        <h3 class="section-heading">Our Process</h3>
+        <ul>
+          <li class="process-container">
+            <img
+              src="./images/understanding-problem.jpg"
+              alt="Image of people working together"
+              class="process-img"
+            />
+            <div>
+              <p class="process-title">Collaborative Problem Definition</p>
+              <p class="process-description">
+                We believe in a collaborative approach to problem definition,
+                where we work closely with you to gain a deep understanding of
+                your unique needs, challenges, and goals, and define the
+                specific parameters of the problem you are facing.
+              </p>
+            </div>
+          </li>
+          <li class="process-container">
+            <img
+              src="./images/analysis.jpg"
+              alt="Image of research and analysis"
+              class="process-img"
+            />
+            <div>
+              <p class="process-title">Comprehensive Research</p>
+              <p class="process-description">
+                Our experienced analysts will leverage their expertise and
+                cutting-edge tools to conduct a comprehensive research that
+                takes into account your unique requirements, preferences and
+                constraints, and recommend the best-fit solutions to meet your
+                objectives.
+              </p>
+            </div>
+          </li>
+          <li class="process-container">
+            <img
+              src="./images/reports.jpg"
+              alt="Image of analysis reports"
+              class="process-img"
+            />
+            <div>
+              <p class="process-title">Solution Summary</p>
+              <p class="process-description">
+                Our team of analysts will conduct a rigorous research and
+                analysis to identify the most viable solutions to meet your
+                specific requirements. We will then provide you with a detailed
+                and easy-to-understand summary of the recommended solutions,
+                including a comprehensive analysis of their respective
+                advantages and disadvantages, to help you make an informed
+                decision.
+              </p>
+            </div>
+          </li>
+          <li class="process-container">
+            <img
+              src="./images/support.png"
+              alt="Image representing support"
+              class="process-img"
+            />
+            <div>
+              <p class="process-title">Implementation Support</p>
+              <p class="process-description">
+                Our team will work closely with you to ensure a seamless and
+                successful implementation of the identified technology,
+                providing expert guidance and support throughout the process to
+                ensure that the implementation meets your objectives and
+                requirements.
+              </p>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <div id="contact-us" class="section contact-us-section">
+      <div class="container">
+        <h3 class="section-heading">Get in touch</h3>
+        <h4>
+          We'll take care of your research so you can focus on growing your
+          business.
+        </h4>
+        <div class="contact-container">
+          <img src="./images/sales-women.png" alt="Image of a sales women" />
+          <div class="contact-details">
+            <p class="contact-name">Misha,<span> Sales Lead</span></p>
+            <a href="mailto:misha@root2market.in" class="contact-email">
+              <img src="./images/icons/mail.png" alt="PNG of a mail" />
+              misha@root2market.in
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <footer>
+      <div class="container">
+        <p>Copyright &copy; 2023 Root2Market. All rights reserved.</p>
+        <p>Bangalore, India</p>
+      </div>
+    </footer>
+  </body>
 </html>

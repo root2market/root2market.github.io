@@ -1,0 +1,177 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+.section {
+  width: 100%;
+  min-height: 60vh;
+  padding: 4rem 0;
+}
+
+.section-heading {
+  font-size: 3.75rem;
+  text-align: center;
+  margin-bottom: 4rem;
+}
+
+/* INTRO Section */
+
+.intro-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #e5f9db;
+}
+
+.intro-section h1 {
+  font-size: 5rem;
+}
+
+.intro-section h2 {
+  font-size: 2.5rem;
+  padding: 0 4px;
+}
+
+.intro-section p {
+  font-size: 1.25rem;
+  padding: 0 8px;
+  margin-top: 36px;
+}
+
+.intro-section a {
+  /* text-decoration: none; */
+  color: inherit;
+}
+
+/* PROCESSES Section */
+
+.process-section ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  row-gap: 48px;
+}
+
+.process-container {
+  display: flex;
+  column-gap: 24px;
+}
+
+.process-container img {
+  width: 280px;
+  height: 180px;
+  border-radius: 12px;
+}
+
+.process-title {
+  font-size: 1.75rem;
+  margin-bottom: 0.75rem;
+}
+
+.process-description {
+  font-size: 1.25rem;
+  color: #222;
+}
+
+/* CONTACT US Section */
+
+.contact-us-section {
+  min-height: fit-content;
+  background-color: #a9907e;
+  color: #fff;
+}
+
+.contact-us-section .container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.contact-us-section h3 {
+  margin-bottom: 1rem;
+}
+
+.contact-us-section h4 {
+  text-align: center;
+  margin-bottom: 4rem;
+}
+
+.contact-container {
+  display: flex;
+  column-gap: 8rem;
+}
+
+.contact-container h4 {
+  width: 50%;
+}
+
+.contact-container {
+  display: flex;
+  column-gap: 24px;
+}
+
+.contact-container img {
+  width: 90px;
+}
+
+.contact-details {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.contact-details > * {
+  margin: 0.5rem 0;
+}
+
+.contact-name {
+  font-size: 2.5rem;
+  line-height: 2rem;
+  margin: 0;
+}
+
+.contact-name span {
+  font-size: 1.5rem;
+}
+
+.contact-email {
+  text-decoration: none;
+  color: #fff;
+  font-size: 1.25rem;
+  display: flex;
+  align-items: center;
+  column-gap: 0.5rem;
+  margin: 0;
+}
+
+.contact-email:hover {
+  text-decoration: underline;
+}
+
+.contact-email img {
+  /* width: 1.5rem; */
+  height: 1.25rem;
+  width: auto;
+}
+
+/* FOOTER Section */
+
+footer {
+  background-color: #675d50;
+  color: #fff;
+  font-size: 0.8rem;
+  padding: 8px 0;
+}
+
+footer .container {
+  display: flex;
+  justify-content: space-between;
+}
+
+footer p {
+  margin: 0;
+}
