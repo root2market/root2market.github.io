@@ -24,6 +24,7 @@
       integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ"
       crossorigin="anonymous"
     />
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
     <link rel="stylesheet" href="./styles/index.css" />
     <link rel="stylesheet" href="./styles/mobile.css" />
     <link rel="icon" type="image/x-icon" href="./images/icons/favicon.ico" />
@@ -31,29 +32,61 @@
   <body>
     <div class="section intro-section">
       <div class="container header">
-        <a href="/">
-          <img
-            src="./images/logo-normal.png"
-            alt="Root2Market Logo"
-            class="company-logo"
-          />
-          <h3 class="company-name">Root2Market</h3>
-        </a>
+        <nav class="navbar navbar-expand-lg">
+          <a href="/">
+            <img
+              src="./images/logo-normal.png"
+              alt="Root2Market Logo"
+              class="company-logo"
+            />
+            <h3 class="company-name">Root2Market</h3>
+          </a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link" href="#what-we-do">What we do</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#industries">Industries</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#process">Our Process</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#about-us">About Us</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#contact-us">Contact Us</a>
+              </li>
+            </ul>
+          </div>
+        </nav>
       </div>
       <div class="container">
-        <h1>Technology Consultant for the Agriculture Industry</h1>
-        <h2>
-          We, at Root2Market, scout technologies, large enterprises, and
-          emerging companies to overcome your challenges and seize opportunities
-          in this dynamic and ever-evolving sector.
-        </h2>
-        <a href="#contact-us">
-          <button class="cta-button">Get in Touch</button>
+        <h1>Uncover the Best Technology Solutions</h1>
+        <h2>with our technology consulting & strategy services!</h2>
+        <a
+          class="cta-link"
+          href="https://calendly.com/root2market/30min"
+          target="_blank"
+        >
+          <button class="cta-button">
+            <img src="./images/icons/calendar-icon.svg" alt="Calendar Icon" />
+            <span>Schedule a Call</span>
+          </button>
         </a>
       </div>
     </div>
 
-    <div class="section list-section services-section">
+    <div id="what-we-do" class="section list-section services-section">
       <div class="container">
         <h3 class="section-heading">How can we help?</h3>
         <h5 class="section-subheading">
@@ -113,7 +146,63 @@
       </div>
     </div>
 
-    <div class="section list-section process-section">
+    <div id="industries" class="section list-section services-section">
+      <div class="container">
+        <h3 class="section-heading">Industries We Serve</h3>
+        <ul>
+          <li class="list-card">
+            <img
+              src="./images/farm.jpg"
+              alt="Image of a farm"
+              class="list-img"
+            />
+            <div class="list-content">
+              <p class="list-title">Agriculture</p>
+              <p class="list-description">
+                We have identified technology solutions, like LoRaWAN IoT
+                systems, for soil monitoring, farm automation & more.
+              </p>
+            </div>
+          </li>
+          <li class="list-card">
+            <img
+              src="./images/doctor.png"
+              alt="Image of a doctor"
+              class="list-img"
+            />
+            <div class="list-content">
+              <p class="list-title">Healthcare</p>
+              <p class="list-description">
+                We are actively exploring disruptive & cost-effective
+                technologies to advance the healthcare sector.
+              </p>
+            </div>
+          </li>
+          <li class="list-card">
+            <img
+              src="./images/industries.jpg"
+              alt="Image of different industries"
+              class="list-img"
+            />
+            <div class="list-content">
+              <p class="list-title">& More being added</p>
+              <p class="list-description">
+                Wondering why your industry is not listed here?
+                <a
+                  href="https://calendly.com/root2market/30min"
+                  target="_blank"
+                >
+                  Book a call
+                </a>
+                with us so that we prioritize your projects right away!
+              </p>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <div id="process" class="section list-section process-section">
       <div class="container">
         <h3 class="section-heading">Our Methodology</h3>
         <ul>
@@ -178,7 +267,7 @@
       </div>
     </div>
 
-    <div class="section about-us-section">
+    <div id="about-us" class="section about-us-section">
       <div class="container">
         <h3 class="section-heading">Meet our Founder/COO</h3>
         <div class="member-card">
@@ -228,10 +317,15 @@
 
     <div id="contact-us" class="section contact-us-section">
       <div class="container">
-        <h3 class="section-heading">Get in touch</h3>
         <h4>
-          Ready to solve your agri problems? Contact us and let's get started!
+          Ready to address your technology gaps and increase productivity?
         </h4>
+        <a href="https://calendly.com/root2market/30min" target="_blank">
+          <button class="cta-button">
+            <img src="./images/icons/calendar-icon.svg" alt="Calendar Icon" />
+            <span>Schedule a Call</span>
+          </button>
+        </a>
         <div class="contact-container">
           <ul class="contact-items">
             <li>
