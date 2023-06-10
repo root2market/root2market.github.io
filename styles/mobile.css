@@ -41,6 +41,7 @@
   .list-card {
     display: flex;
     width: 100%;
+    max-width: initial;
     height: 200px;
     box-shadow: none;
   }
@@ -82,6 +83,15 @@
 
   .contact-us-section .container {
     align-items: flex-start;
+    row-gap: 3rem;
+  }
+
+  .contact-us-section .cta-button {
+    font-size: 3.5rem;
+  }
+
+  .cta-button img {
+    height: 3rem;
   }
 
   .contact-us-section h4 {
