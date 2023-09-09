@@ -37,6 +37,7 @@
     max-width: initial;
     height: 200px;
     box-shadow: none;
+    background-color: inherit;
   }
 
   .list-img {
