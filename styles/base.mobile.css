@@ -1,0 +1,57 @@
+@media (max-width: 992px) {
+  .container {
+    max-width: 90%;
+  }
+
+  /* NAVIGATION */
+  .nav-link {
+    font-size: 1.75rem;
+  }
+
+  /* CTA Button */
+  .cta-button {
+    font-size: 3rem;
+    padding: 0.5rem 1rem;
+  }
+
+  .cta-button img {
+    height: 3rem;
+  }
+
+  /* CONTACT US Section */
+  .contact-us-section .container {
+    align-items: flex-start;
+    row-gap: 3rem;
+  }
+
+  .contact-us-section .cta-button {
+    font-size: 3.5rem;
+  }
+
+  .contact-us-section h4 {
+    text-align: left;
+  }
+
+  .contact-items {
+    flex-direction: column;
+    row-gap: 1rem;
+  }
+
+  .contact-item {
+    font-size: 2.5rem;
+    opacity: 0.8;
+    align-items: flex-start;
+    column-gap: 2rem;
+  }
+
+  .contact-item img {
+    width: 64px;
+    height: 48px;
+  }
+
+  /* FOOTER Section */
+  footer {
+    font-size: 1.5rem;
+    padding: 8px 0;
+  }
+}
