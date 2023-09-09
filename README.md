@@ -1,4 +1,4 @@
-# Roo2Market
+# Root2Market
 
 [Official Website](https://root2market.in/)
 
