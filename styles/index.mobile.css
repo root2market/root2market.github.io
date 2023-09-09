@@ -1,16 +1,20 @@
 /* @media only screen and (max-width: 768px) { */
 @media (max-width: 992px) {
-  .container {
-    max-width: 90%;
+  /* Basic Section */
+  .section-heading {
+    font-size: 5rem;
   }
 
+  .section-subheading {
+    font-size: 1.85rem;
+    line-height: 2.5rem;
+    font-weight: normal;
+  }
+
+  /* INTRO Section */
   .intro-section {
     min-height: 0;
     padding: 1rem 0 2rem;
-  }
-
-  .nav-link {
-    font-size: 1.75rem;
   }
 
   .intro-section h1 {
@@ -19,21 +23,6 @@
 
   .intro-section h2 {
     font-size: 2.25rem;
-    font-weight: normal;
-  }
-
-  .cta-button {
-    font-size: 3rem;
-    padding: 0.5rem 1rem;
-  }
-
-  .section-heading {
-    font-size: 5rem;
-  }
-
-  .section-subheading {
-    font-size: 1.85rem;
-    line-height: 2.5rem;
     font-weight: normal;
   }
 
@@ -68,6 +57,7 @@
     line-height: 2rem;
   }
 
+  /* ABOUT US Section */
   .member-card {
     margin: 3rem auto;
     width: 100%;
@@ -83,44 +73,5 @@
 
   .member-socials img {
     width: 36px;
-  }
-
-  .contact-us-section .container {
-    align-items: flex-start;
-    row-gap: 3rem;
-  }
-
-  .contact-us-section .cta-button {
-    font-size: 3.5rem;
-  }
-
-  .cta-button img {
-    height: 3rem;
-  }
-
-  .contact-us-section h4 {
-    text-align: left;
-  }
-
-  .contact-items {
-    flex-direction: column;
-    row-gap: 1rem;
-  }
-
-  .contact-item {
-    font-size: 2.5rem;
-    opacity: 0.8;
-    align-items: flex-start;
-    column-gap: 2rem;
-  }
-
-  .contact-item img {
-    width: 64px;
-    height: 48px;
-  }
-
-  footer {
-    font-size: 1.5rem;
-    padding: 8px 0;
   }
 }

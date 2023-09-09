@@ -1,0 +1,64 @@
+/* .header {
+  margin: 0;
+  background-color: var(--green-primary);
+}
+
+.header nav {
+  padding: 2rem 0;
+}
+
+.header a {
+  color: #fff;
+  text-decoration: none;
+} */
+
+/* INTRO Section */
+.intro-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: var(--green-primary);
+  padding: 0;
+  color: #fff;
+}
+
+.intro-section a {
+  text-decoration: none;
+}
+
+.intro-section .container {
+  margin: 2rem auto 4rem;
+}
+
+.intro-section h1 {
+  font-size: 3.5rem;
+}
+
+.intro-section h2 {
+  font-size: 1.6rem;
+  padding: 0 4px;
+  margin: 1rem 0 6rem;
+  font-weight: normal;
+}
+
+.intro-section p {
+  font-size: 1.25rem;
+  padding: 0 8px;
+  margin-top: 36px;
+}
+
+.intro-section a {
+  color: inherit;
+}
+
+/* Main Section */
+main {
+  padding: 4rem 0;
+  display: flex;
+  flex-direction: column;
+  row-gap: 3rem;
+}
+
+main .section {
+  padding: 0;
+}

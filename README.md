@@ -17,3 +17,7 @@
 ## Color Palette
 
 - https://colorhunt.co/palette/e5f9dba0d8b3a2a37883764f
+
+## Website downloader
+
+- httrack website copier
